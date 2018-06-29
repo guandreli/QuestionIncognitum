@@ -5,3 +5,10 @@ C:\Users\Gustavo\Desktop\TrabalhoApoo\ConsoleApp1\obj\Debug\QuestionIncognitu.cs
 C:\Users\Gustavo\Desktop\TrabalhoApoo\ConsoleApp1\obj\Debug\QuestionIncognitu.csproj.CoreCompileInputs.cache
 C:\Users\Gustavo\Desktop\TrabalhoApoo\ConsoleApp1\obj\Debug\QuestionIncognitu.exe
 C:\Users\Gustavo\Desktop\TrabalhoApoo\ConsoleApp1\obj\Debug\QuestionIncognitu.pdb
+G:\teste\QuestionIncognitum\ConsoleApp1\bin\Debug\QuestionIncognitu.exe.config
+G:\teste\QuestionIncognitum\ConsoleApp1\bin\Debug\QuestionIncognitu.exe
+G:\teste\QuestionIncognitum\ConsoleApp1\bin\Debug\QuestionIncognitu.pdb
+G:\teste\QuestionIncognitum\ConsoleApp1\obj\Debug\QuestionIncognitu.csprojResolveAssemblyReference.cache
+G:\teste\QuestionIncognitum\ConsoleApp1\obj\Debug\QuestionIncognitu.csproj.CoreCompileInputs.cache
+G:\teste\QuestionIncognitum\ConsoleApp1\obj\Debug\QuestionIncognitu.exe
+G:\teste\QuestionIncognitum\ConsoleApp1\obj\Debug\QuestionIncognitu.pdb

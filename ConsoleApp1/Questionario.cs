@@ -12,7 +12,7 @@ namespace QuestionIncognitu
         public string Pergunta { get; set; }
         public string Resposta { get; set; }
 
-        public List<Questionario> CriarQuestionario(Docente docente)
+        public List<Questionario> SubmitQuestao(Docente docente)
         {
             // Cria o questionário pelo professor/coordenador
             List<Questionario> ListaPerguntas = new List<Questionario>();
@@ -28,7 +28,7 @@ namespace QuestionIncognitu
             return ListaPerguntas;
         }
 
-        public List<Questionario> ListaQuestionario(int RA, List<Questionario> ListaQuestionario)
+        public List<Questionario> SubmitResposta(int RA, List<Questionario> ListaQuestionario)
         {
             // Aluno preenche as respostas de acordo com as perguntas do professor
             Console.Clear();
@@ -52,10 +52,11 @@ namespace QuestionIncognitu
                 throw new Exception("Aluno inválido");
         }
 
-        public void ResultadoProfessor(Docente docente, List<Questionario> ListaPerguntasRespostas)
+        public void ResultadoProfessor(Docente docente, List<Questionario> ListaPerguntasRespostas, Alunos alunos)
         {
             // Exibido as respostas das perguntas
             Console.Clear();
+            Console.WriteLine($"Resposta do aluno {alunos.RA}, campus {alunos.NomeCampus}, curso {alunos.NomeCurso}, referente a disciplina {alunos.NomeDisciplina}, da turma {alunos.NomeTurma}");
             if (docente.IsCoordenador)
             {
                 foreach(var item in ListaPerguntasRespostas)

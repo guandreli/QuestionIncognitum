@@ -13,10 +13,8 @@ namespace QuestionIncognitu.Academico
 
         public bool LoginQrCode(int RA)
         {
-            RA = this.RA;
             // Realiza a validação dos dados
-            var retorno = ((RA.ToString())[0] == '1') ? true : false; //validação apenas para criterio de teste
-            return retorno;
+            return ((RA.ToString())[0] == '1') ? true : false; //validação apenas para criterio de teste
         }
     }
 }
